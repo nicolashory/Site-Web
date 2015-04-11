@@ -1,0 +1,61 @@
+{
+    "accueil": "Bienvenue sur mon site !",
+    "description": "Je suis un étudiant actuellement en troisème année de cycle d'ingénieur à Polytech Nice-Sophia. Titulaire d'un DUT Informatique obtenu à Aix-en-Provence, l'informatique fait partie des mes intérêts majeurs. Vous trouverez sur ce site mon cv ainsi que le descriptif de plusieurs projets réalisés au cours de mon cursus.",
+    "nom": "Hory",
+    "prenom": "Nicolas",
+    "age": "20 ans",
+    "presentation": "Etudiant en troisième année de cycle ingénieur à Polytech Nice Sophia. J'ai auparavant obtenu un DUT Informatique à l'IUT d'Aix-en-Provence.",
+    "lieu": "Rue des Amandiers",
+    "village": "04 130 Volx",
+    "tel": "06.34.33.43.69",
+    "mail": "horynicolas@yahoo.fr",
+    "job": "INGÉNIEUR INFORMATIQUE",
+    "polytech": "Troisième année de cycle d'ingénieur",
+   "objectif":"Obtenir des fonctions en tant qu’informaticien afin d’approfondir mes connaissances.",
+   "cv":{
+      "diplomes":{
+         "annees":{
+           "anneePolytech":"2014-2015",
+           "anneeDUT":"2012-2014",
+           "anneeBac":"2010-2012"
+         },
+         "descPolytech":" Troisième année de cycle d'ingénieur (Polytech Nice)",
+         "descDUT":"DUT Informatique Génie Informatique - IUT d'Aix-en-Provence",
+         "descBAC":" Baccalauréat Scientifique, Spécialité Mathématiques"
+      },
+      "experiences":{
+         "StageDUT":"Stage en entreprise au Commissariat à l’Énergie Atomique de Cadarache(13), modification de l’architecture du code de compilation.",
+          "dureeStage":"2014 - 10 semaines"
+      },
+      "competences":{
+         "progComp":"C/C++, JAVA, BASH, OpenGL",
+         "webComp":"HTML5, CSS3, PHP5, JavaScript, JQuery, Bootstrap3",
+         "bdComp":"SQL, PL/SQL, Oracle, MySQL, Fouilles de données",
+         "mathsComp":"Cryptographie, codage, infographie",
+         "systemeComp":"Linux (Ubuntu), Windows",
+         "logicielsComp":"Eclipse, Intellij, Oracle SQL Developer, Microsoft Office"
+      },
+     "infoSupp":"Pratique régulière du sport (football en club depuis 10 ans), amateur de musique (tous types).",
+     "langues": {
+       "anglais":"Maîtrisé, niveau technique (Score de 860/990 au T.O.E.I.C)",
+       "espagnol":"Niveau scolaire (séjour d’un mois en Espagne en 2011)"
+     },
+     "realisations": {
+        "puissance":"Réalisation d'un puissance 4 en console, dans un groupe de 4",
+        "JAVA":"Récupération et utilisation de données issues de Twitter.",
+        "siteWeb":"Conception d'un site web de sorties sur Aix-en-Provence.",
+        "comm":"Réalisation de \"Préjugés\", un court métrage, groupe de 4."
+     }
+   },
+   "cursus":{
+      "Ingénieur Informatique (Polytech Nice Sophia)":"Polytech Nice-Sophia est l'école d'ingénieur de l'Université Nice - Sophia Antipolis. Elle fait partie du regroupement des écoles du réseau national Polytech d'école d'ingénieur polytechnique (Ecole Polytechnique Universitaire). L'école est implantée au coeur de la technopole Sophia-Antipolis, sur le campus SophiaTech."
+   },
+   "stage":{
+      "Cadarache GCRY":"J'ai réalisé un stage de dix semaines au sein du groupe CryoMagnétisme de Cadarache afin de valider mon DUT. Le rapport est disponible en téléchargement."
+   },
+  "projets": {
+    "filmMedia": "Ce projet fut réalisé en première année de DUT Informatique et consistait à réaliser un court métrage avec nos propres moyens. Ce fut une expérience intéressante puisque cela nous a obligé à gérer notre temps (3mois pour ce projet) et à nous adapter aux problèmes rencontrés.",
+    "siteJS": "Ce projet a été réalisé seul. Il consistait en la création d'un site web sur le thème de notre choix. J'ai décidé d'en créer un sur les lieux fréquentés à Aix-en-Provence, en utilisant des notions de JavaScript, HTML, CSS et en utilisant Bootstrap."
+  }
+
+}

@@ -1,0 +1,60 @@
+#infosBase {
+  float: right;
+  width: 60%;
+}
+
+#objectif {
+  padding-top: 5%;
+  float: left;
+  width: 100%;
+}
+
+.blocGauchePartie {
+  float:left;
+}
+
+.blocDroitPartie {
+  position: relative;
+  padding-left: 35%;
+}
+
+.presObjectif {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.titreBloc {
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+  border-bottom: 3px double #6B0004;
+}
+
+.blocCV {
+  padding-top: 3%;
+  margin-bottom: 1%;
+  position: relative;
+  float:left;
+  width: 100%;
+}
+
+#photo {
+  float: left;
+  width: 40%;
+}
+
+#infosPerso {
+  float: left;
+  width: 40%;
+}
+
+#photoCv {
+  width: 100%;
+}
+
+#travail {
+  float: right;
+  width:60%;
+  text-align: center;
+}

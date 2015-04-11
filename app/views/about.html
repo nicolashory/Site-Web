@@ -1,0 +1,95 @@
+<div class="container pageCV">
+  <div id="topCV">
+    <div id = "infosPerso">
+      <div id = "photo">
+        <img id="photoCv" src="data/photoCV.jpeg">
+      </div>
+      <div class = "infosBase">
+        <p style="font-weight: bold; font-size: 16px">&nbsp{{data.nom}} {{data.prenom}}</p>
+        <p>&nbsp{{data.lieu}}
+        <br> &nbsp{{data.village}}
+        <br><br> &nbsp{{data.tel}}
+        <br> &nbsp{{data.mail}}</p>
+      </div>
+    </div>
+      <div id="travail">
+        <h3 style="font-weight:bold; padding-top: 10%">{{data.job}}</h3>
+        <p style="font-size: 16px; font-weight: bold">{{data.polytech}}</p>
+      </div>
+    </div>
+  <div id="objectif">
+    <p class="presObjectif">OBJECTIF PROFESSIONNEL</p>
+    <p class="centerText">{{data.objectif}}</p>
+  </div>
+  <div id="blocFormation" class="blocCV">
+    <p class="titreBloc">FORMATION</p>
+      <div class="blocGauchePartie">
+        <p>{{data.cv.diplomes.annees.anneePolytech}}</p>
+        <p>{{data.cv.diplomes.annees.anneeDUT}}</p>
+        <p>{{data.cv.diplomes.annees.anneeBac}}</p>
+      </div>
+      <div class="blocDroitPartie">
+        <p>{{data.cv.diplomes.descPolytech}}</p>
+        <p>{{data.cv.diplomes.descDUT}}</p>
+        <p>{{data.cv.diplomes.descBAC}}</p>
+      </div>
+  </div>
+  <div id="blocCompetences" class="blocCV">
+    <p class="titreBloc">COMPÉTENCES INFORMATIQUES</p>
+    <div class="blocGauchePartie">
+      <p>Programmation</p>
+      <p>Base de données</p>
+      <p>Développement Web</p>
+      <p>Mathématiques</p>
+      <p>Système</p>
+      <p>Logiciels</p>
+    </div>
+    <div class="blocDroitPartie">
+      <p>{{data.cv.competences.progComp}}</p>
+      <p>{{data.cv.competences.bdComp}}</p>
+      <p>{{data.cv.competences.webComp}}</p>
+      <p>{{data.cv.competences.mathsComp}}</p>
+      <p>{{data.cv.competences.systemeComp}}</p>
+      <p>{{data.cv.competences.logicielsComp}}</p>
+    </div>
+  </div>
+  <div id="blocLangues" class="blocCV">
+    <p class="titreBloc">LANGUES ÉTRANGÈRES</p>
+    <div class="blocGauchePartie">
+      <p>Anglais</p>
+      <p>Espagnol</p>
+    </div>
+    <div class="blocDroitPartie">
+      <p>{{data.cv.langues.anglais}}</p>
+      <p>{{data.cv.langues.espagnol}}</p>
+    </div>
+  </div>
+  <div id="blocProjets" class="blocCV">
+    <p class="titreBloc">RÉALISATIONS</p>
+    <div class="blocGauchePartie">
+      <p>C++</p>
+      <p>JAVA</p>
+      <p>Web</p>
+      <p>Communication</p>
+    </div>
+    <div class="blocDroitPartie">
+      <p>{{data.cv.realisations.puissance}}</p>
+      <p>{{data.cv.realisations.JAVA}}</p>
+      <p>{{data.cv.realisations.siteWeb}}</p>
+      <p>{{data.cv.realisations.comm}}</p>
+    </div>
+  </div>
+  <div id="blocExperience" class="blocCV">
+    <p class="titreBloc">EXPÉRIENCES PROFESSIONNELLES</p>
+    <div class="blocGauchePartie">
+      <p>{{data.cv.experiences.dureeStage}}</p>
+    </div>
+    <div class="blocDroitPartie">
+      <p>{{data.cv.experiences.StageDUT}}</p>
+    </div>
+  </div>
+  <div id="infosSupp" class="blocCV">
+    <p class="titreBloc">INFORMATIONS COMPLÉMENTAIRES</p>
+    <p>{{data.cv.infoSupp}}</p>
+  </div>
+</div>
